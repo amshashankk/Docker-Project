@@ -1,6 +1,6 @@
 # Docker-Project using Joomla
 *This is the final project using Docker to set-up a WebApp called **Joomla**.*
-## I will explain you the whole process that has been done for creating the *WebApp*.
+**I will explain you the whole process that has been done for creating the *WebApp**.
 
 ## 1. Pre-configurations:
 * *You should have an* **OS** *installed in your sytem. In that* **OS** *you shloud have to install* **Docker** 
@@ -51,7 +51,7 @@ For moving towards the project we have to enable docker service in the system so
    * *If you want to make your data permanent then you have to use* **docker valume**. *We make our dara permanent because if we quit the container then all the data inside container will be destryod. This means, due to any reason if our container terminated our data will not loose.*
 ### Environment:
    * *There are many images in Docker which needs some pre-defined environment variables to run. That's why we need to pass these variables.*
-### Dependencies: and ports:
+### Dependencies:
   * *For running Joomla it needs MySQL database server to store the files.*
 ### Ports:
   * *For running the WebApp we have to expose our container to a specific port. WebApp can only be accessible outside the system if we provide it a specific port.*
