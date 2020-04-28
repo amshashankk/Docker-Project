@@ -18,11 +18,13 @@ For moving towards the project we have to enable docker service in the system so
    `systemctl start docker`
   *You can use this command to enabke docker permanent*
    `systemctl enable docker`
+  *You can check the status of docker by command*
+    `systemctl status docker`
   *To stop docker use command*
     `systemctl stop docker`
 ## 3. Downloading required images:
 * Pulling MySQL Image:
-  * Use `docker pull mysql:5.7` to download the **mysql version 5.7** image to use as a database server.
+  * *Use* `docker pull mysql:5.7` *to download the* **mysql version 5.7** *image to use as a database server.*
  
 * Pulling Joomla Image:
   * Use `docker pull joomla:3.9-php7.2-apache` to download the Joomla Image in which php and apache server is already preconfigured.
@@ -41,24 +43,13 @@ For moving towards the project we have to enable docker service in the system so
 * *Docker compose software can be configured by using command*
   `vim docker-compose.yml`
 #### Remember 
-*The file name should always be* **docker-compose.yml**.
-
-  * Before using Docker-Compose you should install the software. For reference go to this website : https://docs.docker.com/compose/install/
-  * You can create and edit this file using vim editor. For that use `vim docker-compose.yml`. Remember the file name should always be **docker-compose.yml**.
-  * In the below picture you can see the composed file. Let me tell you how it's done.
-![Docker Compose](Screenshots/yml-file.png)
-
+* *The file name should always be* **docker-compose.yml**.
+  *  For reference you can visit to the website: https://docs.docker.com/compose/install/
 ### version:
-   * In each version the style and syntax are different. I used version 3 cause it's easy to compose than other versions.
-### services:
-   * In docker compose we use the term services to rectify which things will run when we start the compose file.
-### container name:
-   * **joomlaos** and **joomladb** are the name of the containers which will be setup. Docker-compose automatically creates the name for the containers using our defined container name. We just only have to tell that these containers we are using.
-### image and restart:
-   * **image** and **restart** these two key is used to specify which image we want to use and due to any reason if any of the container stops docker-compose will again restart it.
-### volumes:
-   * In docker as soon as we terminate an container our whole data inside that container destroyed. But if we want to make our data permanent then we have to use **docker volume**. Using the last volumes key we at first created two volumes. We know that MySQL and Joomla stores their data inside which folder. We simply make those folders permanent by mounting these volumes. That means due to any reason if our container terminated our data will not loose.
-### environment:
+   * *I have used V3(version 3) for docker-compose cause it's easy to compose than the other versions.*
+### Volumes set-up:
+   * *If you want to make your data permanent then you have to use* **docker valume**. *We make our dara permanent because if we quit the container then all the data inside container will be destryod. This means, due to any reason if our container terminated our data will not loose.
+### Environment:
    * There are many images in Docker which needs some pre-defined environment variables to run. That's why we need to pass these variables. One small thing to notice that in **joomlaos** I used **joomladb:3306** as host cause Joomla use this port number to connect with the host.
 ### depends_on and ports:
    * As we know Joomla needs MySQL database server to store there files that's why we are using **depends_on**. Also we know that we have to expose our container(where joomla running) to a specific port otherwise from outside world we will not be able to access our WebApp.
@@ -82,20 +73,4 @@ For moving towards the project we have to enable docker service in the system so
 ## Future possibilities:
    ### This whole setup is done in local machine. But exactly same thing we can do in cloud to setup a Joomla WebApp. We can use many cloud services like Google Cloud, Digital Ocean etc. for this.
    
-## References:
-  ### I learnt this technology totall free of cost in YouTube. What I learnt are mentioned in the below screenshots.
-  Here is the YouTube playlist : https://www.youtube.com/playlist?list=PLAi9X1uG6jZ30QGz7FZ55A27jPeY8EwkE
-### Session 1 Feedback: 
-![Docker Session 1](Screenshots/Docker%20Session1.png)
-### Session 2 Feedback: 
-![Docker Session 2](Screenshots/Docker%20Session2.png)
-### Session 3 Feedback: 
-![Docker Session 3](Screenshots/Docker%20Session3.png)
-### Session 4 Feedback: 
-![Docker Session 4](Screenshots/Docker%20Session4.png)
-### Session 5 Feedback: 
-![Docker Session 5](Screenshots/Docker%20Session5.png)
-### Session 6 Feedback: 
-![Docker Session 6](Screenshots/Docker%20Session6.png)
 
-## Lastly Thank you so much Vimal Daga Sir.
