@@ -67,6 +67,9 @@ For moving towards the project we have to enable docker service in the system so
 ![Docker-compose-start-stop](Process%20Screenshots/Docker-compose-start-stop.png)
 ## 9. Docker-compose down:
   * You can easily stop the containers using `docker compose down` command.
+![Dpcker-copose-down](Process%20Screenshots/Docker-compose-down.png)
+
+
 ## Troubleshooting and Solves:
   #### There might be a possibility that you may face some troubleshoots. As we know in these kinds of automations are depended on many things and suppose any of the dependency might not accurate. Here are some suggestions:
    * After you restart your base OS you will see problem cause previous time you stopped your firewall and after system restart firewall will start again. So before again starting docker-compose you should stop firewall. You can check the status of your firewall using `systemctl status firewalld`. If you want to permanently disable firewall you can use `systemctl disable firewalld`.
