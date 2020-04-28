@@ -7,7 +7,7 @@
 * *Here I am using* **RedHat Enterprise Linux OS** *and I have installed* **Docker Community Edition** *in it.*
 
 ## 2. Set-Up & Requirements:
-* ***Disable Filrewall**: Disabling firewall is not a good choice but, whenever you try to run any network based service then the firewall may block it and the service won't work properly. So, you have to disable firewall for iplementing network based services to system.  
+* **Disable Filrewall**: *Disabling firewall is not a good choice but, whenever you try to run any network based service then the firewall may block it and the service won't work properly. So, you have to disable firewall for iplementing network based services to system.*
 * *Use the following command to stop firewall*
   `systemctl stop firewalld`
 * *Use the following command to start firewall*
@@ -18,7 +18,7 @@ For moving towards the project we have to enable docker service in the system so
    `systemctl start docker`
   *You can use this command to enabke docker permanent*
    `systemctl enable docker`
-  *To stop docker use command
+  *To stop docker use command*
     `systemctl stop docker`
 ## 3. Downloading required images:
 * Pulling MySQL Image:
@@ -29,19 +29,20 @@ For moving towards the project we have to enable docker service in the system so
   
      * To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
       * To know more about Joomla Image go to this page: https://hub.docker.com/_/joomla
-
-  
-![Docker Pull Commands](Screenshots/docker-pull.png)
+      
 ## 4. Setting up MySQL:
-* Use `docker run -it -e  MYSQL_ROOT_PASSWORD=(any password you like) -e MYSQL_USER=(any user name) -e MYSQL_PASSWORD=(any password(recommended not to use root password) -e MYSQL_DATABASE=(any database name) --name joomladb mysql:5.6` this code and it will create a user with a database inside Your MySQL Server.
+* *Use the code given below and it will create a user with a database inside Your MySQL Server.*
+  `docker run -it -e  MYSQL_ROOT_PASSWORD=(your password) -e MYSQL_USER=(your username) -e MYSQL_PASSWORD=(your password) -e MYSQL_DATABASE=(your database name) --name joomladb mysql:5.7` 
 
-![MySQL Server Setup](Screenshots/mysql-setup.png)
-
-* Now if you want to see is your database created or not then you have to install **MySQL cilent software** in your base OS. For that use `yum install mysql`. Next thing check your database server ip address and use that ip while running the client software. For reference check the image below.
-
-![MySQL client](Screenshots/mysql-client.png)
+* *You can see your database is created ir not by using the client software known as* **MySQL Client Software**
+  `yum install mysql`
 
 ## 5. Docker-Compose:
+* *Docker compose software can be configured by using command*
+  `vim docker-compose.yml`
+#### Remember 
+*The file name should always be* **docker-compose.yml**.
+
   * Before using Docker-Compose you should install the software. For reference go to this website : https://docs.docker.com/compose/install/
   * You can create and edit this file using vim editor. For that use `vim docker-compose.yml`. Remember the file name should always be **docker-compose.yml**.
   * In the below picture you can see the composed file. Let me tell you how it's done.
