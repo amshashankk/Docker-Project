@@ -61,7 +61,7 @@ For moving towards the project we have to enable docker service in the system so
   * *For running the WebApp we have to expose our container to a specific port. WebApp can only be accessible outside the system if we provide it a specific port.*
    
 ## 6. Docker-compose up:
-  * As per the below mentioned picture use `docker-compose up` to complete the setup.
+  * *For docker compose up use command* `docker-compose up` *to complete the setup.*
 ![Docker Compose Up](Process%20Screenshots/Docker-compose-up.png)
 ## 7. Running Joomla WebApp:
   * *Open the browser and type* `localhost:80` *in the address bar and you will be able to see your Joomla WebApp.*
