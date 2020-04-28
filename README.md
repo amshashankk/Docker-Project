@@ -1,6 +1,6 @@
 # Docker Project via Joomla
 
-**In the ongoing Docker training conducted by sir Mr.Vimal Daga.**
+*In the ongoing Docker training conducted by sir **Mr.Vimal Daga.***
 I have created my project with my ***Team*** 
 The project is about a **WebApp** named ***Joomla***
 
@@ -22,7 +22,7 @@ The project is about a **WebApp** named ***Joomla***
 3. Downloading required images:
 
     Pulling MySQL Image:
-        Use docker pull mysql:5.6 to download the mysql version 5.6 image to use as a database server.
+        Use $docker pull mysql:5.6 to download the mysql version 5.6 image to use as a database server.
         To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
     Pulling Joomla Image:
         Use docker pull joomla:3.9-php7.2-apache to download the Joomla Image in which php and apache server is already preconfigured.
