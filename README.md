@@ -1,14 +1,27 @@
-# IIEC_Docker_Project_on_Joomla
-Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vimal Daga Sir. This is my final project using Docker to set-up a WebApp called **Joomla**.
-## I am going to explain the whole set-up process in this documentation.
-## 1. Pre-configurations needed:
-* I am using **RedHat Enterprise Linux**. Plus I have also installed Docker Software in it. You can use any OS and inside that OS you should have docker software installed. There might be a possibility that some Linux command might be different from other OS but I will explain what is the work of that command.
-## 2. Setting up the required things:
-* Disabling firewall:
-  * Firewall might block some networking stuffs that's why I at first stopped the firewall.
-  * Use `systemctl stop firewalld`.
-* Starting the docker:
-  * Use `systemctl start docker` to start Docker Service.
+# Docker-Project using Joomla
+*This is the final project using Docker to set-up a WebApp called **Joomla**.*
+## I will explain you the whole process that has been done for creating the *WebApp*.
+
+## 1. Pre-configurations:
+* *You should have an* **OS** *installed in your sytem. In that* **OS** *you shloud have to install* **Docker** 
+* *Here I am using* **RedHat Enterprise Linux OS** *and I have installed* **Docker Community Edition** *in it.*
+
+## 2. Set-Up & Requirements:
+* ***Disable Filrewall**: Disabling firewall is not a good choice but, whenever you try to run any network based service then the firewall may block it and the service won't work properly. So, you have to disable firewall for iplementing network based services to system.  
+* *Use the following command to stop firewall*
+  `systemctl stop firewalld`
+* *Use the following command to start firewall*
+  `systemctl start firewalld`
+## 3. Run Docker: 
+For moving towards the project we have to enabke docker service in the system so that we can use it.
+  *To start docker use command
+   `systemctl start docker`
+  *You can use this command to enabke docker permanent*
+   `systemctl enable docker`
+  *To stop docker use command
+    `systemctl stop docker`
+ 
+
 ## 3. Downloading required images:
 * Pulling MySQL Image:
   * Use `docker pull mysql:5.6` to download the **mysql version 5.6** image to use as a database server.
