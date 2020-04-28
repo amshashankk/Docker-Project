@@ -29,4 +29,5 @@ Services;
     
 volumes:
   mysql_storage_new:
-  jm_storage_new
+  jm_storage_new:
+  
