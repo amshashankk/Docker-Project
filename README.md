@@ -1,6 +1,6 @@
 # Docker-Project using Joomla
 *This is the final project using Docker to set-up a WebApp called **Joomla**.*
-**I will explain you the whole process that has been done for creating the *WebApp*.**
+*I will explain you the whole process that has been done for creating the **WebApp*.**
 
 ## 1. Pre-configurations:
 * *You should have an* **OS** *installed in your sytem. In that* **OS** *you shloud have to install* **Docker** 
