@@ -1,0 +1,32 @@
+Version: '3'
+
+Services;
+  joomlabdb:
+    image: mysql:5.7
+      volumes:
+        - mysql_storage_new:/var/lib/mysql
+      restart: always
+      environment:
+        MYSQL_ROOT_PASSWORD: rootpass
+        MYSQL_USER: shashank / mantasha
+        MYSQL_PASSWORD: Onetwo@3 / qwerty
+        MYSQL_DATABASE: mydb
+        
+ joomlaos:
+  image: joomla:3.9-php7.2-apache
+  restart: always
+  dependenceis:
+    - joomladb
+  ports: 
+    - 80:80
+  environment:
+    JOOMLA_DB_HOST: joomladb: 1122
+    JOOMLA_DB_USER: shashank / mantasha
+    JOOMLA_DB_PASSWORD: Onetwo@3 / qwerty
+    JOOMLA_DB_NAME: mydb
+  volumes:
+    - jm_storage_new:var/www/html
+    
+volumes:
+  mysql_storage_new:
+  jm_storage_new
