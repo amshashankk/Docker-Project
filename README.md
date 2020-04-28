@@ -58,13 +58,13 @@ For moving towards the project we have to enable docker service in the system so
    
 ## 6. Docker-compose up:
   * As per the below mentioned picture use `docker-compose up` to complete the setup.
-![Docker Compose Up](Process Screenshots/Docker-compose-up.png)
+![Docker Compose Up](Process Screenshots/Docker-compose-up.jpg)
 ## 7. Joomla Started:
   * Got to your browser and type `localhost:80` and done you will be able to see your Joomla WebApp. Now one small suggestion that you can use directly `localhost` without typing the port cause in http apache server our browser by default use the port 80. But if you want to use any other port then you have to mention it in your docker-compose file.
-![Joomla Web Page](Process Screenshots/joomla-webpage.png)
+![Joomla Web Page](Process Screenshots/joomla-webpage.jpg)
 ## 8. Docker-compose start stop:
    * After using docker compose up now in one click you can stop your whole setup. Just use `docker-compose stop`. Again you want to start the service use `docker compose start`. 
-![Docker-compose-start-stop](Process Screenshots/Docker-compose-start-stop.png)
+![Docker-compose-start-stop](Process Screenshots/Docker-compose-start-stop.jpg)
 ## 9. Docker-compose down:
   * You can easily stop the containers using `docker compose down` command.
 ## Troubleshooting and Solves:
