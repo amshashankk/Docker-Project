@@ -23,10 +23,10 @@ For moving towards the project we have to enable docker service in the system so
   *To stop docker use command*
     `systemctl stop docker`
 ## 3. Downloading required images:
- ## Pulling MySQL Image:
+### Pulling MySQL Image:
   * *Use* `docker pull mysql:5.7` *to download the* **mysql version 5.7** *image to use as a database server.*
  
-# Pulling Joomla Image:
+### Pulling Joomla Image:
   * Use `docker pull joomla:3.9-php7.2-apache` to download the Joomla Image in which php and apache server is already preconfigured.
   
      * To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
