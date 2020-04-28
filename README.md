@@ -13,22 +13,23 @@
 * *Use the following command to start firewall*
   `systemctl start firewalld`
 ## 3. Run Docker: 
-For moving towards the project we have to enabke docker service in the system so that we can use it.
-  *To start docker use command
+For moving towards the project we have to enable docker service in the system so that we can use it.
+  *To start docker use command*
    `systemctl start docker`
   *You can use this command to enabke docker permanent*
    `systemctl enable docker`
   *To stop docker use command
     `systemctl stop docker`
- 
-
 ## 3. Downloading required images:
 * Pulling MySQL Image:
-  * Use `docker pull mysql:5.6` to download the **mysql version 5.6** image to use as a database server.
-  * To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
+  * Use `docker pull mysql:5.7` to download the **mysql version 5.7** image to use as a database server.
+ 
 * Pulling Joomla Image:
   * Use `docker pull joomla:3.9-php7.2-apache` to download the Joomla Image in which php and apache server is already preconfigured.
-  * To know more about Joomla Image go to this page: https://hub.docker.com/_/joomla
+  
+     * To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
+      * To know more about Joomla Image go to this page: https://hub.docker.com/_/joomla
+
   
 ![Docker Pull Commands](Screenshots/docker-pull.png)
 ## 4. Setting up MySQL:
