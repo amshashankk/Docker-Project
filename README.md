@@ -77,7 +77,7 @@ For moving towards the project we have to enable docker service in the system so
 Special thanks to our sir Mr. Vimal Daga by Mantasha & Shashank. We have Learned a lot as a team under your guidence.
 
 Stay tuned for next project. Do visit & follow
-www.github.com/amshashank 
+www.github.com/amshashank  // 
 www.github.com/ammantasha
 
    
