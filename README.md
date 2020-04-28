@@ -23,10 +23,10 @@ For moving towards the project we have to enable docker service in the system so
   *To stop docker use command*
     `systemctl stop docker`
 ## 3. Downloading required images:
-* Pulling MySQL Image:
+ ## Pulling MySQL Image:
   * *Use* `docker pull mysql:5.7` *to download the* **mysql version 5.7** *image to use as a database server.*
  
-* Pulling Joomla Image:
+# Pulling Joomla Image:
   * Use `docker pull joomla:3.9-php7.2-apache` to download the Joomla Image in which php and apache server is already preconfigured.
   
      * To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
@@ -48,7 +48,7 @@ For moving towards the project we have to enable docker service in the system so
 ### version:
    * *I have used V3(version 3) for docker-compose cause it's easy to compose than the other versions.*
 ### Volumes set-up:
-   * *If you want to make your data permanent then you have to use* **docker valume**. *We make our dara permanent because if we quit the container then all the data inside container will be destryod. This means, due to any reason if our container terminated our data will not loose.
+   * *If you want to make your data permanent then you have to use* **docker valume**. *We make our dara permanent because if we quit the container then all the data inside container will be destryod. This means, due to any reason if our container terminated our data will not loose.*
 ### Environment:
    * There are many images in Docker which needs some pre-defined environment variables to run. That's why we need to pass these variables. One small thing to notice that in **joomlaos** I used **joomladb:3306** as host cause Joomla use this port number to connect with the host.
 ### depends_on and ports:
