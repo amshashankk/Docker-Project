@@ -27,3 +27,5 @@ The project is about a **WebApp** named ***Joomla***
     Pulling Joomla Image:
         Use docker pull joomla:3.9-php7.2-apache to download the Joomla Image in which php and apache server is already preconfigured.
         To know more about Joomla Image go to this page: https://hub.docker.com/_/joomla
+        
+        
