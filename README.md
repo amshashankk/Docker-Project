@@ -108,10 +108,12 @@
 ![Dpcker-copose-down](Process%20Screenshots/Docker-compose-down.png)
 
 
-* Special thanks to our sir **Mr. Vimal Daga** from **Mantasha** & **Shashank**. We have learned a lot as a team under your guidence.
+### Credits:
+ *Special thanks to our sir* **Mr. Vimal Daga** *from* **Mantasha** & **Shashank**. *We have learned a lot as a team under your guidence.*
 
-Stay tuned for next project. Do visit & follow
-www.github.com/amshashank  // 
+### Developers:
+*Stay tuned for next project. Do* **Follow & Visit:** 
+www.github.com/amshashank  || 
 www.github.com/ammantasha
 
    
