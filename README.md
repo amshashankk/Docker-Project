@@ -21,14 +21,14 @@
   
   
 ## 3. Run Docker: 
-For moving towards the project we have to enable docker service in the system so that we can use it.
-  *To start docker use command*
+*For moving towards the project we have to enable docker service in the system so that we can use it.*
+  *To start docker, use command*
    `systemctl start docker`
   *You can use this command to enabke docker permanent*
    `systemctl enable docker`
   *You can check the status of docker by command*
     `systemctl status docker`
-  *To stop docker use command*
+  *To stop docker, use command*
     `systemctl stop docker`
     
     
@@ -83,13 +83,13 @@ For moving towards the project we have to enable docker service in the system so
    
    
 ## 6. Docker-compose up:
-  * *For docker compose up use command* `docker-compose up` *to complete the setup.*
+  * *For docker compose up, use command* `docker-compose up` *to complete the setup.*
   
 ![Docker Compose Up](Process%20Screenshots/Docker-compose-up.png)
 
 
 ## 7. Running Joomla WebApp:
-  * *Open the browser and type* `localhost:80` *in the address bar and you will be able to see your Joomla WebApp.*
+  * *Open the browser and type* `localhost:80` or `localhost` *in the address bar and you will be able to see your Joomla WebApp.*
   
   #### Note: 
   *If you want to use any other port then you have to mention it in your docker-compose file.*
@@ -98,7 +98,7 @@ For moving towards the project we have to enable docker service in the system so
 
 
 ## 8. Docker-compose start stop:
-   * *To stop docker-compose use command* `docker-compose stop`. *To start docker-compose use command* `docker compose start`.
+   * *To stop docker-compose, use command* `docker-compose stop`. *To start docker-compose use command* `docker compose start`.
    
 ![Docker-compose-start-stop](Process%20Screenshots/Docker-compose-start-stop.png)
 
@@ -108,7 +108,7 @@ For moving towards the project we have to enable docker service in the system so
 ![Dpcker-copose-down](Process%20Screenshots/Docker-compose-down.png)
 
 
-* Special thanks to our sir **Mr. Vimal Daga** from **Mantasha** & **Shashank**. We have Learned a lot as a team under your guidence.
+* Special thanks to our sir **Mr. Vimal Daga** from **Mantasha** & **Shashank**. We have learned a lot as a team under your guidence.
 
 Stay tuned for next project. Do visit & follow
 www.github.com/amshashank  // 
