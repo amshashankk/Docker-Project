@@ -91,7 +91,7 @@
 ## 7. Running Joomla WebApp:
   * *Open the browser and type* `localhost:80` or `localhost` *in the address bar and you will be able to see your Joomla WebApp.*
   
-  #### Note: 
+#### Note: 
   *If you want to use any other port then you have to mention it in your docker-compose file.*
   
 ![Joomla Web Page](Process%20Screenshots/joomla-webpage.png)
