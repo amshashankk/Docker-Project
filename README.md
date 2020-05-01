@@ -1,4 +1,4 @@
-# Docker-Project using Joomla
+# Joomla Docker Project
 *This is the final project using Docker to set-up a WebApp called **Joomla**.*
 *I will explain you the whole process that has been done for creating the **WebApp** .*
 
