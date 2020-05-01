@@ -67,7 +67,7 @@
    
    
 ### Volumes set-up:
-   * *If you want to make your data permanent then you have to use* **docker valume**. *We make our dara permanent because if we quit the container then all the data inside container will be destryod. This means, due to any reason if our container terminated our data will not loose.*
+   * *If you want to make your data permanent then you have to use* **docker volume**. *We make our dara permanent because if we quit the container then all the data inside container will be destryod. This means, due to any reason if our container terminated our data will not loose.*
    
    
 ### Environment:
