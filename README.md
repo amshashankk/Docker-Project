@@ -105,7 +105,7 @@
 
 ## 9. Docker-compose down:
   * *You can easily stop the containers using command* `docker compose down` 
-![Dpcker-copose-down](Process%20Screenshots/Docker-compose-down.png)
+![Docker-compose-down](Process%20Screenshots/Docker-compose-down.png)
 
 
 ### 10. Credits:
