@@ -109,11 +109,11 @@
 
 
 ### 10. Credits:
- *Special thanks to our sir* **Mr. Vimal Daga** *from* **Mantasha** & **Shashank**. *We have learned a lot as personal as well as a team under your guidence.*
+ *Special thanks to our sir* **Mr. Vimal Daga** *from* **Shashank**. *We have learned a lot as personal as well as a team under your guidence.*
 
 ### 11. Developers:
 *Stay tuned for more interesting projects. Do* **Follow & Visit:** 
-***www.github.com/ammantasha*** **//** ***www.github.com/amshashank***
+***www.github.com/ammantasha*** **
 
 
    
