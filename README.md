@@ -113,7 +113,7 @@
 
 ### 11. Developers:
 *Stay tuned for more interesting projects. Do* **Follow & Visit:** 
-***www.github.com/amshashank*** **
+***www.github.com/amshashank*** 
 
 
    
