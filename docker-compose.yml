@@ -8,8 +8,8 @@ Services;
       restart: always
       environment:
         MYSQL_ROOT_PASSWORD: rootpass
-        MYSQL_USER: shashank / mantasha
-        MYSQL_PASSWORD: Onetwo@3 / qwerty
+        MYSQL_USER: shashank 
+        MYSQL_PASSWORD: Onetwo@3 
         MYSQL_DATABASE: mydb
         
  joomlaos:
@@ -21,8 +21,8 @@ Services;
     - 80:80
   environment:
     JOOMLA_DB_HOST: joomladb: 1122
-    JOOMLA_DB_USER: shashank / mantasha
-    JOOMLA_DB_PASSWORD: Onetwo@3 / qwerty
+    JOOMLA_DB_USER: shashank 
+    JOOMLA_DB_PASSWORD: Onetwo@3
     JOOMLA_DB_NAME: mydb
   volumes:
     - jm_storage_new:var/www/html
